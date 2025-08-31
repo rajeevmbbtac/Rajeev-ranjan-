@@ -5,152 +5,150 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Dr. Rajeev Ranjan | Plant Molecular Biologist</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Merriweather:wght@600&display=swap" rel="stylesheet">
   <style>
-    /* General Styles */
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Inter', sans-serif;
       margin: 0;
-      background-color: #f5f8fa;
-      color: #333;
+      background-color: #f9fafc;
+      color: #2b2b2b;
       line-height: 1.7;
       scroll-behavior: smooth;
     }
 
     h1, h2, h3 {
       font-family: 'Merriweather', serif;
+      margin-top: 0;
     }
 
-    /* Header */
     header {
       text-align: center;
-      background: linear-gradient(135deg, #4e014e, #037e80);
+      background: linear-gradient(135deg, #1a1a2e, #16213e);
       color: #fff;
-      padding: 70px 20px;
+      padding: 80px 20px;
       position: relative;
-      overflow: hidden;
-    }
-    header::after {
-      content: '';
-      position: absolute;
-      bottom: -30px;
-      left: 0;
-      width: 100%;
-      height: 50px;
-      background: #f5f8fa;
-      clip-path: ellipse(70% 100% at 50% 0%);
-    }
-    header h1 {
-      font-size: 3em;
-      margin: 10px 0;
-      animation: fadeInDown 1s ease;
-    }
-    header p {
-      margin: 5px 0;
-      color: #ffe082;
-      font-size: 1.4em;
-      animation: fadeInUp 1.2s ease;
     }
 
-    /* Social */
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.3em;
+      color: #c9a857;
+    }
+
     .social-icons {
       margin-top: 20px;
     }
+
     .social-icons a {
       margin: 0 10px;
       text-decoration: none;
-      color: #ffe082;
-      font-size: 1.8em;
-      transition: transform 0.3s;
+      color: #c9a857;
+      font-size: 1.6em;
+      transition: color 0.3s ease;
     }
+
     .social-icons a:hover {
-      transform: scale(1.2);
       color: #fff;
     }
 
-    /* Navigation */
     nav {
       text-align: center;
-      background: #037e80;
+      background: #16213e;
       padding: 12px 0;
       position: sticky;
       top: 0;
       z-index: 1000;
     }
+
     nav a {
       margin: 0 15px;
       text-decoration: none;
-      color: #fff;
-      font-weight: 600;
-      font-size: 1.05em;
-      transition: color 0.3s;
-    }
-    nav a:hover {
-      color: #ffe082;
+      color: #f1f1f1;
+      font-weight: 500;
+      font-size: 1em;
+      transition: color 0.3s ease;
     }
 
-    /* Sections */
+    nav a:hover {
+      color: #c9a857;
+    }
+
     section {
       max-width: 950px;
       margin: auto;
       padding: 50px 25px;
     }
+
     section:nth-child(even) {
-      background-color: #eef7f7;
+      background-color: #f1f3f6;
     }
+
     h2 {
-      border-left: 5px solid #037e80;
-      padding-left: 10px;
-      color: #014d4e;
+      font-size: 1.8em;
       margin-bottom: 20px;
+      color: #1a1a2e;
+      position: relative;
     }
+
+    h2 img {
+      width: 35px;
+      height: auto;
+      vertical-align: middle;
+      margin-left: 6px;
+      opacity: 0.85;
+      border-radius: 6px;
+    }
+
+    h2::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 3px;
+      background: #c9a857;
+      margin-top: 6px;
+      border-radius: 2px;
+    }
+
+    section p, section ul {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
     ul {
       padding-left: 20px;
     }
+
     li {
       margin-bottom: 10px;
     }
 
-    /* Card Style */
-    section p, section ul {
-      background: #fff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    }
-
-    /* Contact */
-    #contact p {
-      font-size: 1.1em;
-    }
-    #contact a {
-      font-weight: bold;
-    }
-
-    /* Footer */
     footer {
       text-align: center;
-      color: #fff;
+      color: #ddd;
       font-size: 0.95em;
-      background: #014d4e;
+      background: #0f172a;
       padding: 25px;
       margin-top: 50px;
     }
 
-    /* Animations */
-    @keyframes fadeInDown {
-      from { opacity: 0; transform: translateY(-20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-    @keyframes fadeInUp {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
+    footer p {
+      margin: 0;
+      color: #aaa;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Dr. Rajeev Ranjan</h1>
-    <p>Postdoctoral Research Associate | Plant Molecular Biology</p>
+    <p>Postdoctoral Research Associate | Plant Molecular Biology 🌱</p>
+    <div style="margin-top:20px;">
+    </div>
     <div class="social-icons">
       <a href="https://x.com/rajeevmbbt" target="_blank"><i class="fab fa-twitter"></i></a>
       <a href="https://www.linkedin.com/in/rajeev-ranjan-897723a/" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -173,8 +171,8 @@
   <section id="education">
     <h2>Education</h2>
     <ul>
-      <li><strong>Ph.D. Plant Molecular Biology</strong>, NIPGR/JNU, India, 2018 (Advisor: Prof. Akhilesh K. Tyagi)</li>
-      <li><strong>M.S. Molecular Biology & Biotechnology</strong>, Tezpur University, India, 2009</li>
+      <li><strong>Ph.D. Plant Molecular Biology</strong>, NIPGR/JNU, India, 2018. Advisor: Prof. Akhilesh K. Tyagi</li>
+      <li><strong>M.S. Molecular Biology & Biotechnology</strong>, Tezpur University, India, 2009. Advisor: Prof. Anand Ramteke</li>
       <li><strong>B.S. Zoology, Botany, Chemistry</strong>, Magadh University, India, 2005</li>
     </ul>
   </section>
@@ -182,65 +180,184 @@
   <section id="appointments">
     <h2>Appointments</h2>
     <ul>
-      <li>Postdoctoral Research Associate, Washington State University, USA (2024-present)</li>
-      <li>Postdoctoral Research Assistant, Purdue University, USA (2020-2024)</li>
-      <li>Assistant Professor (Research), Adam Mickiewicz University, Poland (2019-2020)</li>
+      <li>Postdoctoral Research Associate, Washington State University, Pullman, USA (2024–present)</li>
+      <li>Postdoctoral Research Assistant, Purdue University, USA (2020–2024)</li>
+      <li>Assistant Professor (Research), Adam Mickiewicz University, Poland (2019–2020)</li>
       <li>Research Fellow, University of Delhi South Campus, India (2018)</li>
+      <li>Ph.D. Researcher, NIPGR/JNU, India (2011–2017)</li>
     </ul>
   </section>
 
   <section id="research">
     <h2>Research Experience</h2>
-    <p><strong>Washington State University (2024-present):</strong> Physaria fendleri gene editing and metabolic flux analysis for industrial fatty acids. Mentoring undergraduates.</p>
-    <p><strong>Purdue University (2020-2024):</strong> Developed gene regulatory networks, characterized transcription factors in lipid metabolism, co-wrote $75,000 grant, mentored five undergraduates.</p>
-    <p><strong>Adam Mickiewicz University (2019-2020):</strong> CRISPR editing in Arabidopsis, studied ATR kinase in meiosis.</p>
-    <p><strong>University of Delhi (2018):</strong> Characterized MED14 & MED26 roles in rice development. Obtained DS Kothari fellowship (~$35,000).</p>
+    
+    <h3>Washington State University, Pullman, USA <span>(Sep 2024 – Present)</span></h3>
+<ul>
+  <li>Leading gene editing and bioengineering efforts to improve <em>Physaria fendleri</em> for high-yield production of industrial fatty acids.</li>
+  <li>Generating CRISPR-edited plants via tissue culture and analyzing metabolic flux using GC-MS and radiolabeling techniques.</li>
+  <li>Mentoring undergraduate students in molecular biology and plant tissue culture methods.</li>
+</ul>
+
+<h3>Purdue University, West Lafayette, IN, USA <span>(Postdoc, Mar 2020 – Aug 2024)</span></h3>
+<ul>
+  <li>Built a high-throughput gene discovery platform using organ-specific regulatory networks in <em>Arabidopsis thaliana</em>.</li>
+  <li>Identified key transcriptional regulators of seed-lipid biosynthesis through mutant analysis and transcriptomic profiling.</li>
+  <li>Co-developed <strong>EpiNet</strong>, a computational framework for discovering epigenetic regulators in plant systems.</li>
+  <li>Bioengineered <em>Camelina sativa</em> for enhanced seed oil production and validated performance in greenhouse and field trials.</li>
+  <li>Secured $75,000 in research funding through a successful grant proposal focused on oilseed bioengineering.</li>
+  <li>Supervised five undergraduates in genetic engineering, molecular biology, and greenhouse experimentation.</li>
+</ul>
+
+<h3>Adam Mickiewicz University, Poznan, Poland <span>(Postdoc, Feb 2019 – Jan 2020)</span></h3>
+<ul>
+  <li>Applied CRISPR to edit two genes across 12 <em>Arabidopsis</em> genotypes with altered meiotic crossover patterns.</li>
+  <li>Investigated ATR kinase’s role in crossover redistribution, revealing its impact on recombination without affecting DSB formation.</li>
+  <li>Guided an undergraduate researcher in CRISPR-based gene editing techniques.</li>
+</ul>
+
+<h3>University of Delhi South Campus, New Delhi, India <span>(Research Fellow, 2018)</span></h3>
+<ul>
+  <li>Studied transcription regulators MED14 and MED26 in leaf and seed development using histology, auxin localization, and cell cycle analysis.</li>
+  <li>Awarded the DS Kothari Postdoctoral Fellowship (~$35,000) to explore Mediator complex proteins in rice development and stress response.</li>
+  <li>Instructed molecular biology lab sessions for graduate students.</li>
+</ul>
+
+<h3>National Institute of Plant Genome Research (NIPGR), New Delhi, India <span>(Ph.D. Student, 2011 – 2017)</span></h3>
+<ul>
+  <li>Developed a robust rice transformation protocol and generated transgenic lines with 15 constructs targeting developmental traits.</li>
+  <li>Characterized bHLH142 and CPK29 functions in rice anther and pollen development, revealing key regulatory pathways.</li>
+  <li>Used RNA-seq, yeast two-hybrid, and BiFC to uncover molecular mechanisms and protein interactions critical for reproductive development.</li>
+  <li>Collaborated on gene discovery projects related to seed size, grain yield, and phenotypic traits in rice and chickpeas.</li>
+</ul>
   </section>
 
   <section id="publications">
-    <h2>Selected Publications</h2>
-    <ul>
-      <li>Ranjan R et al. (2024). Organ-delimited gene regulatory networks... <em>PNAS</em>.</li>
-      <li>Ranjan R et al. (2022). CDPK29 controls pollen development... <em>Plant Science</em>.</li>
-      <li>Malik N, Ranjan R et al. (2020). Mediator subunit OsMED14_1... <em>Plant Journal</em>.</li>
-      <li>Full list: <a href="https://scholar.google.co.in/citations?user=nfhlu1QAAAAJ" target="_blank">Google Scholar</a></li>
-    </ul>
+    <h2>Publications & Patent</h2>
+    <h3>Patent</h3>
+<ul>
+  <li><strong>Title:</strong> Increasing seed lipid content by over-expressing transcriptional regulators</li>
+  <li><strong>Inventors:</strong> Varala K, Li Y, Ranjan R</li>
+  <li><strong>Publication No.:</strong> US 2024/0327857 A1 <em>(Pending)</em></li>
+  <li><strong>Year:</strong> 2024</li>
+  <li><strong>Summary:</strong> This patent outlines a method for enhancing seed oil content in plants by manipulating key transcriptional regulators, offering potential applications in agricultural biotechnology and industrial crop improvement.</li>
+</ul>
+
+    <p>For a complete and up-to-date list of my publications and patents, please visit my 
+      <a href="https://scholar.google.co.in/citations?hl=en&tzom=420&user=nfhlu1QAAAAJ" target="_blank">Google Scholar profile</a>.
+    </p>
   </section>
 
   <section id="grants">
-    <h2>Grants & Awards</h2>
+    <h2>Grants, Fellowships & Awards</h2>
     <ul>
-      <li>AgSEED research grant, Purdue University ($75,000)</li>
-      <li>DS Kothari postdoctoral fellowship (~$35,000)</li>
-      <li>Multiple travel awards (ISPL, Gordon Research Conference, IPMB)</li>
-      <li>Ph.D. research fellowships (CSIR, India)</li>
+      <h3>Grants, Fellowships & Awards</h3>
+<ul>
+  <li><strong>2024:</strong> Travel award ($1160) to attend the International Symposium on Plant Lipids.</li>
+  <li><strong>2024:</strong> Travel award ($575) for Plant Biology 2024 (ASPB) — not availed.</li>
+  <li><strong>2024:</strong> Nominated for Postdoctoral Mentoring Award by Purdue University.</li>
+  <li><strong>2023:</strong> AgSEED Research Grant ($75,000) from Purdue University’s College of Agriculture — awarded as Senior Personnel.</li>
+  <li><strong>2023:</strong> Travel grant ($1500) from Gordon Research Conference, USA.</li>
+  <li><strong>2018:</strong> DS Kothari Postdoctoral Fellowship (~$35,000) awarded by UGC, Govt. of India.</li>
+  <li><strong>2015:</strong> Travel grant ($1500) from IPMB 2015, Brazil — awarded by the board of directors.</li>
+  <li><strong>2011–2017:</strong> Ph.D. Research Fellowships (JRF-NET) from CSIR, Govt. of India.</li>
+  <li><strong>2012:</strong> First Place — Best Poster Presentation Award at NIPGR, New Delhi.</li>
+  <li><strong>2007–2009:</strong> Master’s Scholarship from DBT, Govt. of India.</li>
+</ul>
+
     </ul>
   </section>
 
   <section id="teaching">
-    <h2>Teaching & Mentorship</h2>
-    <ul>
-      <li>Instructor, EXCEL program, Washington State University</li>
-      <li>Guest lectures at Purdue University, Haryana Agriculture University, and University of Delhi</li>
-      <li>Mentored graduate and undergraduate students globally</li>
+    <h2>Teaching, Mentorship & Outreach</h2>
+<ul>
+  <li>Instructor for the <strong>EXCEL Program</strong> at Washington State University, promoting higher education among Native American communities.</li>
+  <li>Delivered a guest lecture on <em>Plant Physiology</em> (HORT 301) at Purdue University, USA.</li>
+  <li>Presented a virtual guest lecture at Haryana Agriculture University, India.</li>
+  <li>Led a guest lecture in <em>Molecular Biology Lab</em> at the University of Delhi South Campus, India.</li>
+  <li>Mentored graduate students: Scott Benzinger and Ena Olomukoro (Purdue University, USA), and Shivam Sharma (University of Delhi, India).</li>
+  <li>Guided undergraduate students: Rachel Kuhn, Pietro Stroik, Arianna Uribe-Melchor, Casey McGill, and Kayleigh Jennings (Purdue University, USA); Mattia Magnalardo (Adam Mickiewicz University, Poland).</li>
+  <li>Trained a lab technician in advanced tissue culture techniques for rice transformation.</li>
+</ul>
+
     </ul>
   </section>
 
   <section id="service">
-    <h2>Professional Service & Leadership</h2>
-    <ul>
-      <li>Early Career Representative, ASPB Equity Diversity and Inclusion Committee (2024-2026)</li>
-      <li>Postdoc Ambassador, Botanical Society of America (2022-2025)</li>
-      <li>Professional Development Chair, CBPTA, Purdue University (2022-2023)</li>
-      <li>Editorial roles in Journal of Plant Growth Regulation, Frontiers journals</li>
-      <li>Ad-hoc reviewer for multiple plant biology journals</li>
+    <h2>Professional Training & Leadership</h2>
+<ul>
+  <li>Completed an eight-week <strong>PREP Workshop</strong> (Professors Reviewing Excellent Practices) on effective teaching, organized by the College of Agriculture, Purdue University, USA.</li>
+  <li>Participated in a four-week workshop titled <strong>“Teaching the Teachers: AI Use for Equitable Instruction and Student Success”</strong> at Washington State University, USA.</li>
+</ul>
+
+<h3>Service to the Profession</h3>
+
+<h4>Memberships</h4>
+<ul>
+  <li>Fellow, Future Faculty Academy (2024)</li>
+  <li>Member, American Society for Plant Biologists (ASPB) <span>(2024–present)</span></li>
+  <li>Member, Botanical Society of America <span>(2023)</span></li>
+  <li>Life Member, Indian Science Congress Association (ISCA)</li>
+  <li>Life Member, Indian Society for Plant Physiology (ISPP)</li>
+  <li>Life Member, Indian Society for Plant Biochemistry and Biotechnology (ISPBB)</li>
+</ul>
+
+<h4>Editorial Roles</h4>
+<ul>
+  <li>Associate Editor, <em>Journal of Plant Growth Regulation</em> <span>(2024–present)</span></li>
+  <li>Review Editor, <em>Frontiers in Genetics</em> <span>(2022–present)</span></li>
+  <li>Review Editor, <em>Frontiers in Plant Science</em> <span>(2022–present)</span></li>
+  <li>Guest Associate Editor, <em>Frontiers in Plant Science</em> — edited the research topic: “Genomic and Biotechnological Interventions for the Concurrent Improvement of Stress Resilience and Seed-Associated Traits in Crops.”</li>
+  <li>Ad-hoc Reviewer for: <em>Physiologia Plantarum</em>, <em>Plant Cell Reports</em>, <em>BMC Plant Biology</em>, <em>Journal of Plant Growth Regulation</em>, <em>PLoS ONE</em>, and <em>Horticulture Research</em>.</li>
+</ul>
+
+<h4>Grant Reviews</h4>
+<ul>
+  <li>Reviewed 21 applications for the ASPB Travel Award for Plant Biology 2025.</li>
+  <li>Reviewed 4 applications for the ASPB 2025 Recognition Travel Award.</li>
+</ul>
+
+<h4>Conference Judging</h4>
+<ul>
+  <li>Judge, Undergraduate Research Conference, Purdue University, USA <span>(Spring & Fall 2022)</span></li>
+  <li>Judge, Graduate Research Presentations, HLA Retreat, Purdue University, USA <span>(May 2023 & May 2024)</span></li>
+  <li>Judge, ASPB Midwest Meeting, West Lafayette, IN, USA <span>(March 2024)</span></li>
+</ul>
+
+<h4>Leadership Roles</h4>
+<ul>
+  <li>Early Career Representative, ASPB Equity Diversity and Inclusion Committee <span>(2024–2026)</span></li>
+  <li>Postdoc Ambassador, Botanical Society of America <span>(2022–2025)</span></li>
+  <li>Professional Development Chair, Center for Plant Molecular Biology Trainee Association (CBPTA), Purdue University, USA <span>(2022–2023)</span></li>
+  <li>Co-convener, “<strong>SciEfflux 2012</strong>” — Student Symposium at NIPGR, New Delhi, India.</li>
     </ul>
   </section>
 
-  <section id="presentations">
+  <section id="presentations & Posters">
     <h2>Presentations</h2>
-    <p><strong>Talks:</strong> ISPL24 (2024), CPB retreat (2024), Botany 2023, Amity University (2022).</p>
-    <p><strong>Posters:</strong> ISPL24, ASPB Midwest (2024), Botany 2023, Gordon Research Conference (2023).</p>
+    <h3>Presentations</h3>
+
+<h4>Talks</h4>
+<ul>
+  <li>Flash Talk at <strong>ISPL24</strong>, Lincoln, NE, USA <span>(July 15, 2024)</span></li>
+  <li>Invited Talk at <strong>Center for Plant Biology Retreat</strong>, Purdue University <span>(May 1, 2024)</span></li>
+  <li>Flash Talk at <strong>Botany 2023</strong>, Boise, ID, USA <span>(July 25–26, 2023)</span></li>
+  <li>Presentation at <strong>HLA Retreat</strong>, Purdue University, IN, USA <span>(Dec 9, 2022)</span></li>
+  <li>Invited Virtual Talk at <strong>Amity University Rajasthan</strong>, India <span>(March 24, 2022)</span></li>
+  <li>Seminar Speaker for <strong>CPBTA Seminar Series</strong>, Purdue University, IN, USA</li>
+</ul>
+
+<h4>Posters</h4>
+<ul>
+  <li><strong>ISPL24</strong>, Lincoln, NE, USA — International Symposium on Plant Lipids <span>(July 15, 2024)</span></li>
+  <li><strong>ASPB Midwest 2024</strong>, West Lafayette, IN, USA <span>(Feb 16–17, 2024)</span></li>
+  <li><strong>Botany 2023</strong> Conference, Boise, ID, USA <span>(July 24, 2023)</span></li>
+  <li><strong>Gordon Research Conference</strong> on Plant Lipids, Galveston, TX, USA <span>(Jan 29–Feb 3, 2023)</span></li>
+  <li><strong>CPB Retreat</strong>, Purdue University, IN, USA <span>(May 26, 2022 & May 26, 2023)</span></li>
+  <li><strong>IPMB 2015</strong> — International Conference on Plant Molecular Biology, Foz do Iguaçu, Brazil <span>(2015)</span></li>
+  <li><strong>ISPP Meetings</strong>, Indian Society for Plant Physiology, New Delhi, India <span>(2015 & 2018)</span></li>
+  <li><strong>ISRFG11</strong> — International Symposium of Rice Functional Genomics, New Delhi, India <span>(2012)</span></li>
+</ul>
+
   </section>
 
   <section id="contact">
@@ -248,9 +365,8 @@
     <p><i class="fas fa-envelope"></i> Email: <a href="mailto:rajeevmbbtac@gmail.com">rajeevmbbtac@gmail.com</a>, <a href="mailto:rajeev.ranjan@wsu.edu">rajeev.ranjan@wsu.edu</a></p>
     <p><i class="fas fa-phone"></i> Phone: +1 765 409 8914</p>
   </section>
-
   <footer>
-    <p>&copy; 2025 Dr. Rajeev Ranjan | Built by Aman</p>
+    <p>&copy; 2025 Dr. Rajeev Ranjan | Crafted with professionalism by Aman</p>
   </footer>
 </body>
 </html>
